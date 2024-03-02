@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar{
+    text-decoration-color: rgb(255, 255, 255);
+    font-size: 24px;
+     z-index: 1000;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 30px;
+    margin: 10px ;
+    border-radius: 2px solid black;
+    border-radius: 40px 10px ;
+    position: sticky;
+
+    top: 0px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-top: 24px;
+}
+.btn2{
+    color: rgb(226, 187, 9);
+    border:1px solid rgb(107, 107, 107);
+    padding: 5px;
+    font-size: 35px;
+    width: 70px;
+    height: 36px;
+    margin-left: 300px;
+}
+
+.btn1{
+     width: 150px;
+     padding:15px;
+     margin: 1px;
+     color:rgb(0, 0, 0);
+     background-color:rgb(219, 37, 37);
+     border-radius: 4px;
+     border: 2px solid black;
+     color: rgb(238, 233, 218);
+     font-weight: bold;
+}
+
+/* =======================------navbar---------------==================== */
+
+.footerfont{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(197, 110, 5);
+     padding-top: 5px;
+}
+.footericon{
+    font-size: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footername {
+    font-size: 30px;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.footername a{
+    text-decoration: none;
+    padding: 30px;
+    color:rgb(162, 155, 155) ;
+}
+.footertime{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.footeroffice{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.footertooffice{
+    font-size: 20px;
+}
+/* =======================footer  ==================== */
+
+.homemade{
+     width: 280px;
+     height: 370px;
+     font-size: 20px;
+    border: 2px solid red; 
+    text-align: center;
+    padding: 10px;
+    box-shadow: 500px rgb(21, 21, 21);
+    box-shadow: 0 3px 10px rgba(146, 67, 67, 0.8) ;
+    border-radius: 10px;
+   
+}
+.homebtn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(195, 169, 4);
+    border-radius:10px ;
+   
+}
+.homebtn:hover {
+    background-color: rgb(190, 115, 2);
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid black;
+}
+.homemade img:hover{
+    transform: scale(1.1);
+     transition: 1s;
+transform: rotate(360deg);
+}
+.grid{
+     /* display:flex;
+
+    justify-content: space-evenly;  */
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto ;
+    margin: 20px;
+    padding-bottom: 50px;
+       
+}
+.tabledata{
+
+}
+.ammount{
+    background-color: rgb(46, 85, 85);
+    font-size: 40px;
+    text-align:right;
+    width: 80%;
+    padding-right: 30px;
+    
+}
+
+.ammount1{
+    background-color: rgb(46, 85, 85);
+    font-size: 40px;
+    padding:20px ;
+    border: 2px solid black;
+    width: 80%;
+    
+}
+.payment{
+    font-size: 28px;
+    width: 180px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(233, 171, 13);
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 60px 0px 40px 600px;
+    text-decoration: none;
+
+}
+.av{
+    position: absolute;
+    top: 25%;
+}
+.avv{
+    position: relative;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(94, 133, 4);
+    margin: 30px 50px;
+}
+
+/* ========================================== */
+.payheader{
+ height: 500px;
+ width: 80%;
+ background-color: rgb(17, 36, 90);
+ margin: auto;
+ margin-bottom: 40px;
+ display: flex;
+box-shadow: 10px 10px 10px 10px  rgb(0, 0, 0)  ;
+
+}
+.headericon{
+    color: rgb(249, 249, 249);
+    font-size: 100px;
+    padding: 30px 60px 0px 60px;
+}
+.fontheader
+{
+    font-size: 50px;
+    color: white;
+    margin: 0px 40px 10px 50px;
+
+}
+.headerbutton{
+    width: 120px;
+    padding: 10px;
+    border: 2px solid rgb(44, 42, 42);
+    background-color: aliceblue;
+   border-radius: 30px;
+   font-weight: 800;
+   margin: 60px;
+   text-align: center;
+}
+.payheader2{
+    width: 67%;
+    height: 450px;
+    background-color: rgb(208, 223, 236);
+    margin: 25px;
+    border-start-start-radius:60px;
+    border-end-start-radius:60px;
+    
+}
+.payheader3{
+    padding: 30px 70px;
+}
+.headerbutton1{
+    width: 160px;
+    padding: 10px;
+    border: 2px solid rgb(44, 42, 42);
+    background-color:  rgb(17, 36, 90);
+   border-radius: 30px;
+   font-weight: 800;
+   color: aliceblue;
+   margin-left: 360px;
+   text-align: center;
+}
+.headerbutton1:hover{
+    color: rgb(0, 0, 0);
+    background-color: cadetblue;
+}
